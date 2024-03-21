@@ -1,0 +1,45 @@
+.parent{
+    width: calc(100% - 15rem);
+    padding: 5%;
+    overflow-y: auto;
+}
+
+.section_1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section_1 > h1{
+    color: var(--blue-color);
+    font-size: 2.2rem;
+}
+
+.section_1 p{
+    color: #FF5D01;
+    font-size: 1.2rem;
+}
+
+.question_div{
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+}
+
+.question_div > div{
+    height: 5rem;
+    width: 14rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+
+}
+
+.question_div span{
+    font-size: 2rem;
+    color: var(--heading-color);
+
+}
+

@@ -1,0 +1,149 @@
+.dashboard{
+    height: 100%;
+    width: calc(100% - 15rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    /* border: 5px solid green; */
+}
+
+.box > p{
+    width: 100%;
+    margin-bottom: 1rem;
+    font-family: var(--font1);
+    font-weight: 600;
+    font-size: 2rem;
+    color: var(--heading-color);
+    /* border: 3px solid red; */
+}
+
+.stats{
+    display: flex;
+    width: 70%;
+    /* border: 3px solid red; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    /* flex-wrap: wrap; */
+    overflow-x: auto;
+}
+
+.box{
+    width: 70%;
+}
+
+.trending{
+    display: flex;
+    height: 25rem;
+    width: 100%;
+    margin-bottom: 2rem;
+    /* border: 3px solid red; */
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    align-content: flex-start;
+    overflow-y: auto;
+    
+}
+
+.quiz, .question, .total{
+    height: 8rem;
+    width: 15rem;
+    margin: 5px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+
+.quiz p{
+    color: var(--orange-color);
+    font-family: var(--font1);
+    font-weight: 600;
+    font-size: 1.2rem;
+    /* border: 2px solid red; */
+    width: 10rem;
+}
+
+.quiz span{
+    font-size: 3rem;
+    margin-right: 10px;
+}
+
+.question p{
+    color: var(--green-color);
+    font-family: var(--font1);
+    font-weight: 600;
+    font-size: 1.2rem;
+    /* border: 2px solid red; */
+    width: 13rem;
+}
+
+.question span{
+    font-size: 3rem;
+    margin-right: 10px;
+}
+
+.total p{
+    color: var(--blue-color);
+    font-family: var(--font1);
+    font-weight: 600;
+    font-size: 1.2rem;
+    /* border: 2px solid red; */
+    width: 12rem;
+}
+
+.total span{
+    font-size: 3rem;
+    margin-right: 10px;
+}
+
+.quizBox{
+    width: 11rem;
+    height: 4.5rem;
+    background-color: white;
+    margin-right: 2rem;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0px 6px;
+    border-radius: 10px;
+}
+
+.para1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.para2{
+    color: var(--green-color);
+    font-family: var(--font1);
+    font-weight: 600;
+    font-size: 0.7rem;
+}
+
+.para1 > span{
+    font-family: var(--font1);
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: var(--heading-color);
+}
+
+.numberEye{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 3rem;
+}
+
+.numberEye > span{
+    color: var(--orange-color);
+    font-weight: 600;
+}

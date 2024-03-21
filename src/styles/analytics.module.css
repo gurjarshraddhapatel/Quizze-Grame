@@ -1,0 +1,116 @@
+.dark_overlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3); 
+  z-index: 999; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.analytics{
+    width: calc(100% - 15rem);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.analytics > h2{
+    color: var(--blue-color);
+    font-size: 3rem;
+    font-family: var(--font1);
+    font-weight: 600;
+    text-align: center;
+    margin-top: 4%;
+}
+
+.table_div{
+    width: 80%;
+    height: 75%;
+    margin-top: 4%;
+    overflow-y: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .images{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 2rem;
+
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    font-family: var(--font1);
+    font-weight: 600;
+  }
+  
+  th {
+    background-color: var(--blue-color);
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #B3C4FF;
+    border-radius: 2rem;
+  }
+  
+  .images > img {
+    width: 20px;
+    height: 20px;
+  }
+
+.deletePopup{
+  height: 15rem;
+  width: 35rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  
+}
+
+.deletePopup > span{
+  font-family: var(--font1);
+  font-weight: 600;
+  color: var(--heading-color);
+  font-size: 2rem;
+  width: 60%;
+  text-align: center;
+}
+
+.btn{
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+}
+
+.btn > button{
+  cursor: pointer;
+    width: 13rem;
+    height: 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-family: var(--font1);
+    font-weight: 600;
+}
+
+.deletebtn{
+  background-color: #FF4B4B;
+  color: white;
+}
+
+.cancelbtn{
+
+}
