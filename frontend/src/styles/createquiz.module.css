@@ -1,0 +1,257 @@
+.popup_2{
+    background-color: white;
+    height: 35rem;
+    width: 40rem;
+    padding: 2rem 4rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.popup_2 input[type="text"]::placeholder{
+    font-family: var(--font1);
+    font-weight: 500;
+    color: var(--light-grey-color);
+}
+
+
+
+.section_1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    /* border: 1px solid red; */
+}
+
+.section_1 > span{
+    font-size: 1rem;
+    font-family: var(--font1);
+    font-weight: 500;
+    color: var(--light-grey-color);
+}
+
+.circle{
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: relative;
+    color: var(--light-grey-color);
+    font-family: var(--font1);
+    font-weight: 500;
+    box-shadow: 0 0 15px 0 rgba(114, 107, 107, 0.25);
+}
+
+.border{
+    border: 1px solid red;
+}
+
+.circle > img{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    height: 13px;
+    width: 13px;
+    cursor: pointer;
+}
+
+.circleAndPlus{
+    display: flex;
+    align-items: center;
+}
+
+.circleAndPlus > img{
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.section_2{
+    height: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 3%;
+    /* border: 1px solid red; */
+}
+
+.section_2 > input{
+    height: 3rem;
+    width: 100%;
+    border: none;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,.25);
+    padding-left: 2%;
+    font-family: var(--font1);
+    font-weight: 500;
+    border-radius: 0.4rem;
+    outline: none;
+}
+
+.optionType {
+    display: flex;
+    gap: 20px; /* Adjust the gap as needed */
+    align-items: center;
+    justify-content: space-between;
+}
+
+.optionType label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.optionType input{
+    cursor: pointer;
+}
+
+.optionType  span{
+    font-family: var(--font1);
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: var(--light-grey-color);
+    margin-left: 5px;
+}
+
+
+.input_img{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+
+
+
+
+.section_3 label {
+    display: flex;
+    align-items: center;
+    width: 5rem;
+    margin-bottom: 15px; 
+  }
+  
+  .section_3  input[type="text"]{
+    margin-right: 10px; 
+    width: 40%;
+    height: 2.5rem;
+    padding-left: 2%;
+    border: none;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,.25);
+    border-radius: 0.4rem;
+    font-family: var(--font1);
+    font-weight: 500;
+    outline: none;
+  }
+
+  .addOption{
+    width: 40%;
+    height: 2.5rem;
+    border: none;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,.25);
+    background-color: white;
+    border-radius: 0.4rem;
+    margin-left: 7%;
+    font-family: var(--font1);
+    font-weight: 500;
+  }
+
+  
+
+  /* .section_3 > label > input[type="text"]::placeholder{
+    
+    color: white;
+  } */
+
+  .section_3  input[type="radio"]{
+    margin-right: 5%;
+  }
+  
+  .section_3  img {
+    width: 15px; 
+    height: 15px; 
+    margin-left: 2%;
+    cursor: pointer;
+  }
+  
+ 
+  .section_3 {
+    /* margin-top: 20px;  */
+    height: 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+  }
+
+
+.timer{
+    /* border: 1px solid red; */
+    height: 10rem;
+    width: 8rem;
+    position: absolute;
+    bottom: 17%;
+    right: 0%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.timer span{
+    height: 2rem;
+    width : 5rem;
+    background-color: white;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    font-family: var(--font1);
+    font-weight: 500;
+    font-size: 0.8rem;
+    color: var(--light-grey-color);
+    cursor: pointer;
+}
+
+.timer > .text{
+    box-shadow: none;
+    cursor: auto;
+}
+
+/* .addOption{
+
+} */
+
+
+.cancelContinue{
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.cancelContinue > button{
+    cursor: pointer;
+    width: 12rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-family: var(--font1);
+    font-weight: 600;
+}
+
+.continuebtn{
+    background-color: var(--green-color);
+    color: white;
+}
+
+.cancelbtn{
+    box-shadow: 0 0 15px 0 rgba(0,0,0,.25);
+    
+}

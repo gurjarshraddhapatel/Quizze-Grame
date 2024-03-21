@@ -1,0 +1,120 @@
+.parent{
+    height: 100vh;
+    width: 100%;
+    background-color: #041325;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.childBox{
+    height: 90%;
+    width: 90%;
+    background-color: white;
+    border-radius: 0.5rem;
+    font-family: var(--font1);
+    font-weight: 700;
+    color: var(--heading-color);
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.section_1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section_1 span{
+    font-size: 1.3rem;
+}
+
+.timer{
+    color: var(--error-color);
+}
+
+.section_2, .section_3{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    height: 80%;
+    align-items: center;
+    font-size: 1.2rem;
+    flex-wrap: wrap;
+}
+
+.section_2 > div, .section_3 > div, .textAndUrl{
+    height: 15vh;
+    width: 19vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    background-color: #F0F0F0;
+}
+
+.section_2 > div > img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.selectedOption{
+    border: 3px solid var(--green-color);
+    scale: 1.1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.childBox button{
+    width: 15rem;
+    height: 2rem;
+    bottom: 2%;
+    position: absolute;
+    color: white;
+    background-color: var(--green-color);
+    border-radius: 0.5rem;
+    font-family: var(--font1);
+    font-weight: 600;
+    border: none;
+}
+  
+  .textAndUrl img {
+    height: 90%; 
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .textAndUrl p {
+    height: 50%; 
+    width: 100%;
+    text-align: center;
+    overflow: auto;
+  }
+
+
+@media (max-width: 700px){
+    .section_2 > div, .section_3 > div, .textAndUrl{
+        height: 3rem;
+        width: 13rem;
+    }
+    .childBox{
+        height: 100%;
+        width: 100%;
+        border-radius: 0px;
+    }
+    .childBox > h1{
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    .section_2{
+        justify-content: center;
+    }
+}
+
+
+*{
+    /* border: 0.5px solid red; */
+}

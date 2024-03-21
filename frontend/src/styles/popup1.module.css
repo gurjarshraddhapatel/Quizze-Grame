@@ -1,0 +1,95 @@
+.popup_1{
+    background-color: white;
+    width: 30rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3%;
+    border-radius: 0.5rem;
+    /* border: 1px solid blue; */
+}
+
+
+.popup_1 > input {
+    height: 3rem;
+    width: 100%;
+    border: none;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,.25);
+    padding-left: 2%;
+    font-family: var(--font1);
+    font-weight: 500;
+    border-radius: 0.4rem;
+    outline: none;
+    /* background-color: var(--input-bg-color); */
+}
+
+.popup_1 > input::placeholder{
+    color: var(--light-grey-color);
+    
+}
+
+.quizType{
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    color: var(--light-grey-color);
+}
+
+.quizType > span{
+    font-family: var(--font1);
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.quizType > button{
+    width: 6rem;
+    height: 1.8rem;
+    border: none;
+    box-shadow: var(--shadow1);
+    font-family: var(--font1);
+    font-weight: 500;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.whiteBg{
+    background-color: white;
+    color: var(--light-grey-color);
+}
+
+.greenColor{
+    background-color: var(--green-color);
+    color: white;
+}
+
+.qa{
+    letter-spacing: 3px;
+}
+
+.cancelContinue{
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.cancelContinue > button{
+    cursor: pointer;
+    width: 10rem;
+    height: 1.7rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-family: var(--font1);
+    font-weight: 600;
+}
+
+.continuebtn{
+    background-color: var(--green-color);
+    color: white;
+}
+
+.cancelbtn{
+    box-shadow: 0 0 15px 0 rgba(0,0,0,.25);
+    
+}

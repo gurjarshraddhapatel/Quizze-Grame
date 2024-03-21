@@ -1,0 +1,56 @@
+.parent{
+    height: 100vh;
+    width: 100%;
+    background-color: #041325;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.childBox{
+    height: 90%;
+    width: 90%;
+    background-color: white;
+    border-radius: 0.5rem;
+    font-family: var(--font1);
+    font-weight: 700;
+    color: var(--heading-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.parent img{
+    height: 40%;
+}
+
+.parent span{
+    color: var(--green-color);
+}
+
+.poll_msg{
+    font-size: 2.5rem;
+    width: 40%;
+    text-align: center;
+    color: var(--heading-color);
+}
+
+@media (max-width: 650px){
+    .childBox{
+        width: 100%;
+        height: 100%;
+        border-radius: 0px;
+        font-size: 0.8rem;
+    }
+    .parent img{
+        height: 30%;
+    }
+    .parent h1{
+        text-align: center;
+    }
+    .poll_msg{
+        font-size: 1.3rem;
+    }
+    
+}
